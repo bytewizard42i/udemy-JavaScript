@@ -1,1 +1,2 @@
-console.log('\n Start of data types');
+console.log('\n', 'Start of data types');
+
