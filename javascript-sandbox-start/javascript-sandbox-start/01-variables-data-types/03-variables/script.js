@@ -118,14 +118,15 @@ customer.customerMarried = true; // adding a value of a key to the object
 
 customer.customerChildren = 2; // adding a value of a key to the object
 
-customer.customerTimeWithUs = {
-    5, // adding a value of a key to the object
-    timeUnits: 'Years' // adding a value of a key to the object
+customer.customerTimeWithUs = '5'; // adding a value of a key to the object
+
+/* trying to do a subcatagory:  
+customer.customerTimeWithUs.timeUnits = 'Years'; // adding a value of a key to the object
+*/
 
 console.log('\n');
 
-console.log('Your customer object is now', customer);
-
+console.log('Your customer object is now', customer, customerTimeWithUs);
 
 
 
