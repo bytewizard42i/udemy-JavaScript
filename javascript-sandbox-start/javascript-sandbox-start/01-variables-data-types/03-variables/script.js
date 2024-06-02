@@ -8,11 +8,15 @@ let lastName = 'Doe';
 
 console.log(firstName, lastName);
 
+//*-----------------------------*//
+
 console.log('\n');
 
 let age = 30;
 
 console.log(age);
+
+//*-----------------------------*//
 
 console.log('\n');
 
@@ -49,6 +53,74 @@ if (true) {
 }
 
 console.log('Your new score is', score);
+
+//*-----------------------------*//
+
+const x = 100;
+
+// x = 200; This will throw an error because we are trying to reassign a const variable
+
+// const score1; This will throw an error because we are not assigning a value to the const variable
+
+console.log('\n');
+
+console.log('Your constant x is saved as', x);
+
+console.log('\n'); // adding a blank line
+
+//* working with arrays ----------------------*//
+
+const arr = [1, 2, 3, 4];
+
+arr.push(5); // this method 'push' adds a new element to the end of the array
+
+console.log('Your array is', arr);
+
+//*-----------------------------*//
+
+console.log('\n');
+
+const person = {
+    customerName: 'Steve'  // object name set to person
+};
+
+console.log('Your person object is', person);
+
+person.customerWife = 'Sarah'; // adding a value of a key to the object
+
+person.customerFriend = 'Brad'; // adding a value of a key to the object
+
+person.customerEmail = 'steve@gmail.com'; // adding a value of a key to the object
+
+person.customerAge = 30; // adding a value of a key to the object
+
+person.customerAddress = '123 Main St'; // adding a value of a key to the object
+
+person.customerCity = 'Miami'; // adding a value of a key to the object
+
+person.customerState = 'FL'; // adding a value of a key to the object
+
+person.customerZip = '33101'; // adding a value of a key to the object
+
+person.customerPhone = '305-555-5555'; // adding a value of a key to the object
+
+person.customerCountry = 'USA'; // adding a value of a key to the object
+
+person.customerOccupation = 'Developer'; // adding a value of a key to the object
+
+person.customerSalary = 100000; // adding a value of a key to the object
+
+person.customerMarried = true; // adding a value of a key to the object
+
+person.customerChildren = 2; // adding a value of a key to the object
+
+person.customerTimeWithUs = 5; // adding a value of a key to the object
+
+console.log('\n');
+
+console.log('Your person object is now', person);
+
+
 
 
 
