@@ -13,6 +13,7 @@ console.log(age);
 
 // Naming Conventions
 // - Only letters, numbers, underscores and dollar signs
+
 // - Can't start with a number
 
 // Multi-Word Formatting
@@ -20,3 +21,12 @@ console.log(age);
 // first_name    underscore
 // FirstName     PascalCase
 // firstname     owercase
+
+// reassigning variables
+
+firstName = 'Jeff';
+console.log(firstName); 
+
+
+
+
