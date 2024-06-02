@@ -126,7 +126,7 @@ customer.customerTimeWithUs.timeUnits = 'Years'; // adding a value of a key to t
 
 console.log('\n');
 
-console.log('Your customer object is now', customer, customerTimeWithUs);
+console.log('Your customer object is now', customer);
 
 
 
