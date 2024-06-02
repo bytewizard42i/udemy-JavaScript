@@ -80,45 +80,51 @@ console.log('Your array is', arr);
 
 console.log('\n');
 
-const person = {
-    customerName: 'Steve'  // object name set to person
+const customer = {
+    customerFirstName: 'Steve'  // object name set to customer
 };
 
-console.log('Your person object is', person);
+console.log('Your customer object is', customer);
 
-person.customerWife = 'Sarah'; // adding a value of a key to the object
+customer.customerLastName = 'Rebert';  // adding a value of a key to the object
 
-person.customerFriend = 'Brad'; // adding a value of a key to the object
+customer.customerNumber = 'RS56132'; // adding a value of a key to the object
 
-person.customerEmail = 'steve@gmail.com'; // adding a value of a key to the object
+customer.customerWife = 'Sarah'; // adding a value of a key to the object
 
-person.customerAge = 30; // adding a value of a key to the object
+customer.customerFriend = 'Brad'; // adding a value of a key to the object
 
-person.customerAddress = '123 Main St'; // adding a value of a key to the object
+customer.customerEmail = 'steve@gmail.com'; // adding a value of a key to the object
 
-person.customerCity = 'Miami'; // adding a value of a key to the object
+customer.customerAge = 30; // adding a value of a key to the object
 
-person.customerState = 'FL'; // adding a value of a key to the object
+customer.customerAddress = '123 Main St'; // adding a value of a key to the object
 
-person.customerZip = '33101'; // adding a value of a key to the object
+customer.customerCity = 'Miami'; // adding a value of a key to the object
 
-person.customerPhone = '305-555-5555'; // adding a value of a key to the object
+customer.customerState = 'FL'; // adding a value of a key to the object
 
-person.customerCountry = 'USA'; // adding a value of a key to the object
+customer.customerZip = '33101'; // adding a value of a key to the object
 
-person.customerOccupation = 'Developer'; // adding a value of a key to the object
+customer.customerPhone = '305-555-5555'; // adding a value of a key to the object
 
-person.customerSalary = 100000; // adding a value of a key to the object
+customer.customerCountry = 'USA'; // adding a value of a key to the object
 
-person.customerMarried = true; // adding a value of a key to the object
+customer.customerOccupation = 'Developer'; // adding a value of a key to the object
 
-person.customerChildren = 2; // adding a value of a key to the object
+customer.customerSalary = 100000; // adding a value of a key to the object
 
-person.customerTimeWithUs = 5; // adding a value of a key to the object
+customer.customerMarried = true; // adding a value of a key to the object
+
+customer.customerChildren = 2; // adding a value of a key to the object
+
+customer.customerTimeWithUs = {
+    5, // adding a value of a key to the object
+    timeUnits: 'Years' // adding a value of a key to the object
 
 console.log('\n');
 
-console.log('Your person object is now', person);
+console.log('Your customer object is now', customer);
 
 
 
