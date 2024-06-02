@@ -39,6 +39,16 @@ console.log('Your first name is',firstName);
 
 console.log('\n');
 
+let score = 1;
+console.log('Your score', score);
+
+console.log('\n');
+
+if (true) {
+    score = score + 1;
+}
+
+console.log('Your new score is', score);
 
 
 
