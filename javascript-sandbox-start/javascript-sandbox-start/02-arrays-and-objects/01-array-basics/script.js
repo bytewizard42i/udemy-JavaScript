@@ -15,7 +15,7 @@ console.log('\n');
 //* array constructor
 const fruits = new Array('strawberry', 'banana', 'apple', 'orange', 'grape');
 
-console.log(fruits); 
+console.log(typeof fruits, fruits); 
 
 console.log('\n');
 
