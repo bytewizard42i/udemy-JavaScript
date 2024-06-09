@@ -17,3 +17,11 @@ console.log(d);
 
 console.log('\n');
 */
+
+let d2;
+
+d2 = Date.now();
+
+console.log(d2, typeof d2); //be able to keep track of the state of the system for any instance of time
+
+console.log('\n');
