@@ -3,7 +3,7 @@
 
 console.log('\n');
 
-console.log('Object Challenge');
+console.log('--------- Beginning of Session ---------\n\nObject Challenge');
 
 console.log('\n');
 
@@ -47,4 +47,9 @@ const libraryJSON = JSON.stringify(library);
 console.log('Here is your library in JSON format', libraryJSON);
 
 console.log('\n');
+
+console.log('^^^^^^^^^^End of Session ^^^^^^^^^^^^');
+
+console.log('\n');  
+
 
