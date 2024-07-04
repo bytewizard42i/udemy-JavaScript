@@ -67,8 +67,10 @@ numbers.forEach(function (n) {
 console.log('\n');
 
 // We can really shorten this up:
-
+// It is called an arrow function in a callback:
 numbers.forEach((n) => console.log(n));
+console.log('\n');
+
 // Dont even need the parentheses around the 1st n above
 
 
