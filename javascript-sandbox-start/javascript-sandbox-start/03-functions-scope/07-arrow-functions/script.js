@@ -39,12 +39,42 @@ console.log(double(10));
 console.log(`Here is your function: ${double} = ${double(10)}`);
 console.log('\n');
 
+// Returning an object:
+// As is will return undefined, you must surround object with parentheses
 
-console.log('***End of module***');
+// const createObj = () => {
+//     name: 'Brad';
+// };
+// This returns undefined.
+
+// Here is the correct way:
+
+const createObj = () => ({
+    name: 'Brad'
+});
+
+console.log(createObj());
 console.log('\n');
 
 
+// We havent gone over any high order array methods or callbacks, but they are a great place to use arrow functions
 
+const numbers = [1,2,3,4,5];
+
+numbers.forEach(function (n) {
+    console.log(n);
+})
+console.log('\n');
+
+// We can really shorten this up:
+
+numbers.forEach((n) => console.log(n));
+// Dont even need the parentheses around the 1st n above
+
+
+
+console.log('***End of module***');
+console.log('\n');
 
 
 
