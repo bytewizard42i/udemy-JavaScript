@@ -34,8 +34,9 @@ console.log('\n');
 const double = a => a * 2;
 
 console.log(double(10));
-console.log(`Here is your function: ${double} = ${double(10)}`);
 
+// using a template literal to add some text to my answer
+console.log(`Here is your function: ${double} = ${double(10)}`);
 console.log('\n');
 
 
