@@ -31,6 +31,11 @@ console.log('\n');
 //***function challenge #2 3.9 */
 
 console.log('\n');
-console.log('***Function Challenge #1 3.9***');
+console.log('***Function Challenge #2 3.9***');
 console.log('\n');
+
+const minMax = (arrayParam) => (`For array ${arrayParam}, the min and max are ${Math.min(...arrayParam)} and ${Math.max(...arrayParam)} respectively`);
+
+console.log(minMax([1,2,3,4,5]));
+
 
