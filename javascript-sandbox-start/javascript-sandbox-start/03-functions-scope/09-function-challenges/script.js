@@ -30,12 +30,21 @@ console.log('\n');
 
 //***function challenge #2 3.9 */
 
+// console.log('\n');
+// console.log('***Function Challenge #2 3.9***');
+// console.log('\n');
+
+// const minMax = (arrayParam) => (`For array ${arrayParam}, the min and max are ${Math.min(...arrayParam)} and ${Math.max(...arrayParam)} respectively`);
+
+// console.log(minMax([1,2,3,4,5]));
+
+//*** iife function challenge #3 3.9 */
+
 console.log('\n');
-console.log('***Function Challenge #2 3.9***');
+console.log('***Function Challenge #3 3.9***');
 console.log('\n');
 
-const minMax = (arrayParam) => (`For array ${arrayParam}, the min and max are ${Math.min(...arrayParam)} and ${Math.max(...arrayParam)} respectively`);
-
-console.log(minMax([1,2,3,4,5]));
-
-
+((l, w) => {
+    const result = l * w;
+    console.log(`Length ${l} * Width ${w} = area ${result}`)
+})(10, 20);
