@@ -22,3 +22,8 @@ const getCelsius = (tempF) => {
 getCelsius(32);
 
 console.log('\n');
+
+//*** GPT4o version of a single line  */
+// const getCelsius = (tempF) => console.log(`The entered Fahrenheit temperature of ${tempF}\xB0F => Celsius = ${((tempF - 32) * 5 / 9)}\xB0C`);
+
+// getCelsius(32);
