@@ -1,7 +1,7 @@
 
-//***function challenge 3.9
+//***function challenge #1 3.9
 // console.log('\n');
-// console.log('***Function Challenge 3.9***');
+// console.log('***Function Challenge #1 3.9***');
 // console.log('\n');
 
 
@@ -27,3 +27,10 @@ console.log('\n');
 // const getCelsius = (tempF) => console.log(`The entered Fahrenheit temperature of ${tempF}\xB0F => Celsius = ${((tempF - 32) * 5 / 9)}\xB0C`);
 
 // getCelsius(32);
+
+//***function challenge #2 3.9 */
+
+console.log('\n');
+console.log('***Function Challenge #1 3.9***');
+console.log('\n');
+
