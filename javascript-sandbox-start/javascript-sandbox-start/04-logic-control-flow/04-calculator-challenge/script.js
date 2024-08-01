@@ -35,7 +35,7 @@ console.log('\n');
 
 function calculator(num1, num2, operator){
   
-    switch (num1, num2, operator) {
+    switch (operator) {
         case '*':
             console.log(`The selection you made of ${num1} * ${num2} = ${num1 * num2}`);
             break;
