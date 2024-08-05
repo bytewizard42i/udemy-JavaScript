@@ -23,13 +23,12 @@ console.log('*** trying the challenge with while loop ***');
 let i = 1;
 
 while(i <= 100) {
-    if (i % 3 === 0) {
-        console.log(`Fizz = ${i}`);
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log(`FizzBuzz = ${'3 & 5'} => ${i}`);        
     }else if (i % 5 === 0) {
-        console.log(`Buzz = ${i}`);
-    }else if (i % 3 === 0 && i % 5 === 0) {
-        console.log(`FizzBuzz = ${i}`);
-    }else {console.log(i);
+        console.log(`Buzz = ${'5'} => ${i}`);
+    }else if (i % 3 === 0) {
+        console.log(`Fizz = ${'3'} => ${i}`);
     }i++;    
 }
 
