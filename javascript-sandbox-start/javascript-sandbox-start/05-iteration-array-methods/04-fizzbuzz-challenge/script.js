@@ -33,7 +33,6 @@ while(i <= 100) {
     }i++;    
 }
 
-
-
+console.log('\n');
 console.log('*** End FizzBuzz Challenge ***');
 console.log('\n');
