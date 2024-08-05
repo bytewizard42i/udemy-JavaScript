@@ -29,6 +29,7 @@ while(i <= 100) {
         console.log(`Buzz = ${'5'} => ${i}`);
     }else if (i % 3 === 0) {
         console.log(`Fizz = ${'3'} => ${i}`);
+    }else {console.log(i);
     }i++;    
 }
 
