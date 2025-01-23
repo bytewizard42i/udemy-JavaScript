@@ -1,21 +1,24 @@
+let x;
+// Array literal 
+const numbers = [12, 45, 33, 20, 339];
 
-console.log('\n');
+const mixed = [12, 'Hello', true, null];
 
-//* array literal
-const numbers = [1, 2, 3, 4, 5];
+// Array Constructor
 
-console.log(typeof numbers, numbers);
+const fruits = new Array('apple', 'grape', 'orange');
 
-console.log('\n');
+// x = numbers[3];
 
-console.log('The number in the 4th position \nof the array starting with 0 is:', numbers[4]);
+// x = numbers[0] + numbers[3];
 
-console.log('\n');
+x = numbers.length;
 
-//* array constructor
-const fruits = new Array('strawberry', 'banana', 'apple', 'orange', 'grape');
+// x = fruits
+ 
+// fruits[2] = 'pear';
 
-console.log(typeof fruits, fruits); 
+console.log(x);
 
-console.log('\n');
+console.log(fruits);
 
